@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+}
+header {
+    background-color: #d8d8d8;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+header h1, #info_personal, #habilidades {
+    color: #000000ce;
+}
+
+section {
+    background-color: #d8d8d8;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#info_personal, #habilidades {
+    padding: 10px;
+}
+
+#info_personal p {
+    font-weight: 600;
+    color: #000000cc;
+}
+#info_personal p span {
+    color: #000000a2;
+}
+
+#habilidades ul li {
+    font-weight: bold;
+    color: #000000cc;
+}
+
+footer {
+    color: #333;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+@media screen and (max-width: 600px) {
+    header, #info_personal, #habilidades {
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 18px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    header, #info_personal, #habilidades {
+        padding: 20px;
+    }
+
+    h1, h2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 1025) {
+    header, #info_personal, #habilidades {
+        padding: 30px;
+    }
+
+    h1, h2 {
+        font-size: 28px;
+    }
+}
